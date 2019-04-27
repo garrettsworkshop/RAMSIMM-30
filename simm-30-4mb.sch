@@ -177,13 +177,13 @@ F 3 "" H 4600 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5500 4200 2    50   ~ 0
-D0
-Text Label 5500 4300 2    50   ~ 0
 D1
+Text Label 5500 4300 2    50   ~ 0
+D3
 Text Label 6000 4300 0    50   ~ 0
 D2
 Text Label 6000 4200 0    50   ~ 0
-D3
+D0
 Text Label 4100 4400 2    50   ~ 0
 ~WE~
 Text Label 4100 4500 2    50   ~ 0
@@ -273,13 +273,13 @@ F 3 "" H 6000 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4100 4200 2    50   ~ 0
-D7
-Text Label 4100 4300 2    50   ~ 0
 D5
+Text Label 4100 4300 2    50   ~ 0
+D7
 Text Label 4600 4300 0    50   ~ 0
-D4
-Text Label 4600 4200 0    50   ~ 0
 D6
+Text Label 4600 4200 0    50   ~ 0
+D4
 Text Label 5500 4400 2    50   ~ 0
 ~WE~
 Text Label 5500 4500 2    50   ~ 0
