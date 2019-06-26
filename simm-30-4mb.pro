@@ -1,6 +1,6 @@
-update=Sunday, June 09, 2019 at 09:10:03 PM
+update=Tuesday, June 25, 2019 at 09:30:44 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=simm-30-4mb.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -28,7 +28,7 @@ MinViaDrill=0.2
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.127
+TrackWidth1=0.1524
 TrackWidth2=0.1524
 TrackWidth3=0.254
 TrackWidth4=0.508
@@ -236,8 +236,8 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.127
-TrackWidth=0.127
+Clearance=0.1524
+TrackWidth=0.1524
 ViaDiameter=0.508
 ViaDrill=0.2
 uViaDiameter=0.3

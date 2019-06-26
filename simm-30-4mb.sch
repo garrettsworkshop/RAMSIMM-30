@@ -290,117 +290,8 @@ Text Label 6000 4400 0    50   ~ 0
 NoConn ~ 5500 4600
 NoConn ~ 5500 4700
 NoConn ~ 6000 4700
-$Comp
-L Device:C_Small C1
-U 1 1 5C2E290A
-P 2800 4200
-F 0 "C1" H 2892 4246 50  0000 L CNN
-F 1 "100n" H 2892 4155 50  0000 L CNN
-F 2 "stdpads:C_1206" H 2800 4200 50  0001 C CNN
-F 3 "~" H 2800 4200 50  0001 C CNN
-	1    2800 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5C2E296A
-P 3200 4200
-F 0 "C2" H 3292 4246 50  0000 L CNN
-F 1 "100n" H 3292 4155 50  0000 L CNN
-F 2 "stdpads:C_1206" H 3200 4200 50  0001 C CNN
-F 3 "~" H 3200 4200 50  0001 C CNN
-	1    3200 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 4300 2800 4300
-$Comp
-L power:+5V #PWR0113
-U 1 1 5C2E299D
-P 2800 4100
-F 0 "#PWR0113" H 2800 3950 50  0001 C CNN
-F 1 "+5V" H 2800 4250 50  0000 C CNN
-F 2 "" H 2800 4100 50  0001 C CNN
-F 3 "" H 2800 4100 50  0001 C CNN
-	1    2800 4100
-	1    0    0    -1  
-$EndComp
-Connection ~ 2800 4100
-Wire Wire Line
-	2800 4100 3200 4100
-$Comp
-L power:GND #PWR0114
-U 1 1 5C2E29CC
-P 3600 4300
-F 0 "#PWR0114" H 3600 4050 50  0001 C CNN
-F 1 "GND" H 3600 4150 50  0000 C CNN
-F 2 "" H 3600 4300 50  0001 C CNN
-F 3 "" H 3600 4300 50  0001 C CNN
-	1    3600 4300
-	1    0    0    -1  
-$EndComp
 Text Label 6000 4600 0    50   ~ 0
 2A9
-Text Label 1950 5750 0    50   ~ 0
-1A10
-Text Label 1950 6950 0    50   ~ 0
-1A2
-Text Label 1950 6550 0    50   ~ 0
-1A1
-Text Label 1950 6150 0    50   ~ 0
-1A0
-Text Label 1950 7350 0    50   ~ 0
-1A3
-Text Label 1950 5650 0    50   ~ 0
-1A8
-Text Label 1950 6050 0    50   ~ 0
-1A7
-Text Label 1950 6450 0    50   ~ 0
-1A6
-Text Label 1950 6850 0    50   ~ 0
-1A5
-Text Label 1950 7250 0    50   ~ 0
-1A4
-Text Label 1950 5850 0    50   ~ 0
-2A2
-Text Label 1950 7050 0    50   ~ 0
-2A10
-Text Label 1950 6650 0    50   ~ 0
-2A0
-Text Label 1950 6250 0    50   ~ 0
-2A1
-Text Label 1950 7450 0    50   ~ 0
-2A9
-Text Label 1950 7150 0    50   ~ 0
-2A8
-Text Label 1950 6750 0    50   ~ 0
-2A7
-Text Label 1950 6350 0    50   ~ 0
-2A6
-Text Label 1950 5950 0    50   ~ 0
-2A5
-Text Label 1950 5550 0    50   ~ 0
-2A4
-Text Label 1750 6000 2    50   ~ 0
-A3
-Text Label 1750 5800 2    50   ~ 0
-A2
-Text Label 1750 5600 2    50   ~ 0
-A1
-Text Label 1750 5400 2    50   ~ 0
-A0
-Text Label 1750 7400 2    50   ~ 0
-A10
-Text Label 1750 7000 2    50   ~ 0
-A8
-Text Label 1750 6800 2    50   ~ 0
-A7
-Text Label 1750 6600 2    50   ~ 0
-A6
-Text Label 1750 6400 2    50   ~ 0
-A5
-Text Label 1750 6200 2    50   ~ 0
-A4
 Wire Wire Line
 	1850 7400 1850 7350
 Wire Wire Line
@@ -531,12 +422,6 @@ Text Label 6000 5100 0    50   ~ 0
 2A5
 Text Label 6000 5200 0    50   ~ 0
 2A4
-Text Label 1750 7200 2    50   ~ 0
-A9
-Text Label 1950 5350 0    50   ~ 0
-2A3
-Text Label 1950 5450 0    50   ~ 0
-1A9
 Wire Wire Line
 	1850 7200 1850 7150
 Wire Wire Line
@@ -549,21 +434,179 @@ Wire Wire Line
 Wire Wire Line
 	1750 7200 1850 7200
 $Comp
+L Device:C_Small C1
+U 1 1 5C2E290A
+P 2400 4200
+F 0 "C1" H 2492 4246 50  0000 L CNN
+F 1 "100n" H 2492 4155 50  0000 L CNN
+F 2 "stdpads:C_1206" H 2400 4200 50  0001 C CNN
+F 3 "~" H 2400 4200 50  0001 C CNN
+	1    2400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5C2E296A
+P 2800 4200
+F 0 "C2" H 2892 4246 50  0000 L CNN
+F 1 "100n" H 2892 4155 50  0000 L CNN
+F 2 "stdpads:C_1206" H 2800 4200 50  0001 C CNN
+F 3 "~" H 2800 4200 50  0001 C CNN
+	1    2800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4300 2400 4300
+$Comp
+L power:+5V #PWR0113
+U 1 1 5C2E299D
+P 2400 4100
+F 0 "#PWR0113" H 2400 3950 50  0001 C CNN
+F 1 "+5V" H 2400 4250 50  0000 C CNN
+F 2 "" H 2400 4100 50  0001 C CNN
+F 3 "" H 2400 4100 50  0001 C CNN
+	1    2400 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 4100
+Wire Wire Line
+	2400 4100 2800 4100
+$Comp
 L Device:C_Small C3
 U 1 1 5C2EDC35
+P 3200 4200
+F 0 "C3" H 3292 4246 50  0000 L CNN
+F 1 "100n" H 3292 4155 50  0000 L CNN
+F 2 "stdpads:C_1206" H 3200 4200 50  0001 C CNN
+F 3 "~" H 3200 4200 50  0001 C CNN
+	1    3200 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4100 2800 4100
+Connection ~ 2800 4100
+Wire Wire Line
+	2800 4300 3200 4300
+Connection ~ 2800 4300
+Connection ~ 3200 4300
+$Comp
+L power:GND #PWR0114
+U 1 1 5C2E29CC
+P 3600 4300
+F 0 "#PWR0114" H 3600 4050 50  0001 C CNN
+F 1 "GND" H 3600 4150 50  0000 C CNN
+F 2 "" H 3600 4300 50  0001 C CNN
+F 3 "" H 3600 4300 50  0001 C CNN
+	1    3600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4300 3600 4300
+Connection ~ 3600 4300
+Wire Wire Line
+	3600 4100 3200 4100
+Connection ~ 3200 4100
+$Comp
+L Device:C_Small C4
+U 1 1 5D1301A9
 P 3600 4200
-F 0 "C3" H 3692 4246 50  0000 L CNN
+F 0 "C4" H 3692 4246 50  0000 L CNN
 F 1 "100n" H 3692 4155 50  0000 L CNN
 F 2 "stdpads:C_1206" H 3600 4200 50  0001 C CNN
 F 3 "~" H 3600 4200 50  0001 C CNN
 	1    3600 4200
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5D14DFC9
+P 6200 4500
+F 0 "#PWR0115" H 6200 4250 50  0001 C CNN
+F 1 "GND" H 6200 4350 50  0000 C CNN
+F 2 "" H 6200 4500 50  0001 C CNN
+F 3 "" H 6200 4500 50  0001 C CNN
+	1    6200 4500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3600 4100 3200 4100
-Connection ~ 3200 4100
+	6200 4500 6000 4500
+$Comp
+L power:GND #PWR0116
+U 1 1 5D14FA7D
+P 4800 4500
+F 0 "#PWR0116" H 4800 4250 50  0001 C CNN
+F 1 "GND" H 4800 4350 50  0000 C CNN
+F 2 "" H 4800 4500 50  0001 C CNN
+F 3 "" H 4800 4500 50  0001 C CNN
+	1    4800 4500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3200 4300 3600 4300
-Connection ~ 3200 4300
-Connection ~ 3600 4300
+	4800 4500 4600 4500
+Text Label 1950 5650 0    50   ~ 0
+2A10
+Text Label 1950 5450 0    50   ~ 0
+2A9
+Text Label 1950 5850 0    50   ~ 0
+2A8
+Text Label 1950 6050 0    50   ~ 0
+2A0
+Text Label 1950 6250 0    50   ~ 0
+2A7
+Text Label 1950 6450 0    50   ~ 0
+2A1
+Text Label 1950 6850 0    50   ~ 0
+2A2
+Text Label 1950 7050 0    50   ~ 0
+2A5
+Text Label 1950 6650 0    50   ~ 0
+2A6
+Text Label 1950 7250 0    50   ~ 0
+2A3
+Text Label 1950 7450 0    50   ~ 0
+2A4
+Text Label 1750 6000 2    50   ~ 0
+A3
+Text Label 1750 5800 2    50   ~ 0
+A2
+Text Label 1750 5600 2    50   ~ 0
+A1
+Text Label 1750 5400 2    50   ~ 0
+A0
+Text Label 1750 7000 2    50   ~ 0
+A8
+Text Label 1750 6800 2    50   ~ 0
+A7
+Text Label 1750 6600 2    50   ~ 0
+A6
+Text Label 1750 6400 2    50   ~ 0
+A5
+Text Label 1750 6200 2    50   ~ 0
+A4
+Text Label 1750 7200 2    50   ~ 0
+A9
+Text Label 1750 7400 2    50   ~ 0
+A10
+Text Label 1950 5350 0    50   ~ 0
+1A4
+Text Label 1950 5550 0    50   ~ 0
+1A3
+Text Label 1950 5750 0    50   ~ 0
+1A5
+Text Label 1950 5950 0    50   ~ 0
+1A2
+Text Label 1950 6150 0    50   ~ 0
+1A6
+Text Label 1950 6350 0    50   ~ 0
+1A1
+Text Label 1950 6550 0    50   ~ 0
+1A7
+Text Label 1950 6750 0    50   ~ 0
+1A0
+Text Label 1950 6950 0    50   ~ 0
+1A8
+Text Label 1950 7150 0    50   ~ 0
+1A10
+Text Label 1950 7350 0    50   ~ 0
+1A9
 $EndSCHEMATC
