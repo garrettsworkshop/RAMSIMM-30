@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:simm-30-4mb-cache
 EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -14,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x30 J2
+L Connector_Generic:Conn_01x30 J1
 U 1 1 5C2E1E12
 P 4450 3450
-F 0 "J2" V 4574 3396 50  0000 C CNN
+F 0 "J1" V 4574 3396 50  0000 C CNN
 F 1 "Conn_01x30" V 4665 3396 50  0000 C CNN
-F 2 "stdpads:Memory_SIMM_30" H 4450 3450 50  0001 C CNN
+F 2 "stdpads:SIMM-30_Edge" H 4450 3450 50  0001 C CNN
 F 3 "~" H 4450 3450 50  0001 C CNN
 	1    4450 3450
 	0    -1   1    0   
@@ -120,178 +121,28 @@ Text Label 5750 3250 1    50   ~ 0
 ~CASP~
 Text Label 5850 3250 1    50   ~ 0
 DP
-$Comp
-L Connector_Generic:Conn_02x13_Counter_Clockwise U1
-U 1 1 5C2E22F1
-P 4300 4700
-F 0 "U1" H 4350 5517 50  0000 C CNN
-F 1 "511400" H 4350 5426 50  0000 C CNN
-F 2 "stdpads:SOJ-24-26-300mil" H 4300 4700 50  0001 C CNN
-F 3 "~" H 4300 4700 50  0001 C CNN
-	1    4300 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0105
-U 1 1 5C2E243C
-P 4100 4100
-F 0 "#PWR0105" H 4100 3950 50  0001 C CNN
-F 1 "+5V" H 4100 4250 50  0000 C CNN
-F 2 "" H 4100 4100 50  0001 C CNN
-F 3 "" H 4100 4100 50  0001 C CNN
-	1    4100 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0106
-U 1 1 5C2E2473
-P 4100 5300
-F 0 "#PWR0106" H 4100 5150 50  0001 C CNN
-F 1 "+5V" H 4100 5450 50  0000 C CNN
-F 2 "" H 4100 5300 50  0001 C CNN
-F 3 "" H 4100 5300 50  0001 C CNN
-	1    4100 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5C2E252F
-P 4600 4100
-F 0 "#PWR0107" H 4600 3850 50  0001 C CNN
-F 1 "GND" H 4600 3950 50  0000 C CNN
-F 2 "" H 4600 4100 50  0001 C CNN
-F 3 "" H 4600 4100 50  0001 C CNN
-	1    4600 4100
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5C2E2540
-P 4600 5300
-F 0 "#PWR0108" H 4600 5050 50  0001 C CNN
-F 1 "GND" H 4600 5150 50  0000 C CNN
-F 2 "" H 4600 5300 50  0001 C CNN
-F 3 "" H 4600 5300 50  0001 C CNN
-	1    4600 5300
-	1    0    0    -1  
-$EndComp
-Text Label 5500 4200 2    50   ~ 0
-D1
-Text Label 5500 4300 2    50   ~ 0
-D3
-Text Label 6000 4300 0    50   ~ 0
-D2
-Text Label 6000 4200 0    50   ~ 0
-D0
-Text Label 4100 4400 2    50   ~ 0
-~WE~
-Text Label 4100 4500 2    50   ~ 0
-~RAS~
-Text Label 4600 4600 0    50   ~ 0
-1A9
-Text Label 4600 4500 0    50   ~ 0
+Text Label 4200 7000 0    50   ~ 0
 ~OE~
-Text Label 4600 4800 0    50   ~ 0
+Text Label 3400 6850 2    50   ~ 0
 1A8
-Text Label 4600 4400 0    50   ~ 0
-~CAS~
-Text Label 4600 4900 0    50   ~ 0
+Text Label 3400 6750 2    50   ~ 0
 1A7
-Text Label 4600 5000 0    50   ~ 0
+Text Label 3400 6650 2    50   ~ 0
 1A6
-Text Label 4600 5100 0    50   ~ 0
+Text Label 3400 6550 2    50   ~ 0
 1A5
-Text Label 4600 5200 0    50   ~ 0
+Text Label 3400 6450 2    50   ~ 0
 1A4
-Text Label 4100 5200 2    50   ~ 0
+Text Label 3400 6350 2    50   ~ 0
 1A3
-Text Label 4100 5100 2    50   ~ 0
+Text Label 3400 6250 2    50   ~ 0
 1A2
-Text Label 4100 5000 2    50   ~ 0
+Text Label 3400 6150 2    50   ~ 0
 1A1
-Text Label 4100 4900 2    50   ~ 0
+Text Label 3400 6050 2    50   ~ 0
 1A0
-Text Label 4100 4800 2    50   ~ 0
+Text Label 3400 7050 2    50   ~ 0
 1A10
-NoConn ~ 4100 4600
-NoConn ~ 4100 4700
-NoConn ~ 4600 4700
-$Comp
-L Connector_Generic:Conn_02x13_Counter_Clockwise U2
-U 1 1 5C2E285B
-P 5700 4700
-F 0 "U2" H 5750 5517 50  0000 C CNN
-F 1 "511400" H 5750 5426 50  0000 C CNN
-F 2 "stdpads:SOJ-24-26-300mil" H 5700 4700 50  0001 C CNN
-F 3 "~" H 5700 4700 50  0001 C CNN
-	1    5700 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0109
-U 1 1 5C2E2862
-P 5500 4100
-F 0 "#PWR0109" H 5500 3950 50  0001 C CNN
-F 1 "+5V" H 5500 4250 50  0000 C CNN
-F 2 "" H 5500 4100 50  0001 C CNN
-F 3 "" H 5500 4100 50  0001 C CNN
-	1    5500 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0110
-U 1 1 5C2E2868
-P 5500 5300
-F 0 "#PWR0110" H 5500 5150 50  0001 C CNN
-F 1 "+5V" H 5500 5450 50  0000 C CNN
-F 2 "" H 5500 5300 50  0001 C CNN
-F 3 "" H 5500 5300 50  0001 C CNN
-	1    5500 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 5C2E286E
-P 6000 4100
-F 0 "#PWR0111" H 6000 3850 50  0001 C CNN
-F 1 "GND" H 6000 3950 50  0000 C CNN
-F 2 "" H 6000 4100 50  0001 C CNN
-F 3 "" H 6000 4100 50  0001 C CNN
-	1    6000 4100
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 5C2E2874
-P 6000 5300
-F 0 "#PWR0112" H 6000 5050 50  0001 C CNN
-F 1 "GND" H 6000 5150 50  0000 C CNN
-F 2 "" H 6000 5300 50  0001 C CNN
-F 3 "" H 6000 5300 50  0001 C CNN
-	1    6000 5300
-	1    0    0    -1  
-$EndComp
-Text Label 4100 4200 2    50   ~ 0
-D5
-Text Label 4100 4300 2    50   ~ 0
-D7
-Text Label 4600 4300 0    50   ~ 0
-D6
-Text Label 4600 4200 0    50   ~ 0
-D4
-Text Label 5500 4400 2    50   ~ 0
-~WE~
-Text Label 5500 4500 2    50   ~ 0
-~RAS~
-Text Label 6000 4500 0    50   ~ 0
-~OE~
-Text Label 6000 4400 0    50   ~ 0
-~CAS~
-NoConn ~ 5500 4600
-NoConn ~ 5500 4700
-NoConn ~ 6000 4700
-Text Label 6000 4600 0    50   ~ 0
-2A9
 Wire Wire Line
 	1850 7400 1850 7350
 Wire Wire Line
@@ -402,26 +253,6 @@ Wire Wire Line
 	1850 6250 1950 6250
 Wire Wire Line
 	1750 6200 1850 6200
-Text Label 5500 5200 2    50   ~ 0
-2A3
-Text Label 5500 5100 2    50   ~ 0
-2A2
-Text Label 5500 5000 2    50   ~ 0
-2A1
-Text Label 5500 4900 2    50   ~ 0
-2A0
-Text Label 5500 4800 2    50   ~ 0
-2A10
-Text Label 6000 4800 0    50   ~ 0
-2A8
-Text Label 6000 4900 0    50   ~ 0
-2A7
-Text Label 6000 5000 0    50   ~ 0
-2A6
-Text Label 6000 5100 0    50   ~ 0
-2A5
-Text Label 6000 5200 0    50   ~ 0
-2A4
 Wire Wire Line
 	1850 7200 1850 7150
 Wire Wire Line
@@ -439,7 +270,7 @@ U 1 1 5C2E290A
 P 2400 4200
 F 0 "C1" H 2492 4246 50  0000 L CNN
 F 1 "100n" H 2492 4155 50  0000 L CNN
-F 2 "stdpads:C_1206" H 2400 4200 50  0001 C CNN
+F 2 "stdpads:C_0805" H 2400 4200 50  0001 C CNN
 F 3 "~" H 2400 4200 50  0001 C CNN
 	1    2400 4200
 	1    0    0    -1  
@@ -450,7 +281,7 @@ U 1 1 5C2E296A
 P 2800 4200
 F 0 "C2" H 2892 4246 50  0000 L CNN
 F 1 "100n" H 2892 4155 50  0000 L CNN
-F 2 "stdpads:C_1206" H 2800 4200 50  0001 C CNN
+F 2 "stdpads:C_0805" H 2800 4200 50  0001 C CNN
 F 3 "~" H 2800 4200 50  0001 C CNN
 	1    2800 4200
 	1    0    0    -1  
@@ -477,7 +308,7 @@ U 1 1 5C2EDC35
 P 3200 4200
 F 0 "C3" H 3292 4246 50  0000 L CNN
 F 1 "100n" H 3292 4155 50  0000 L CNN
-F 2 "stdpads:C_1206" H 3200 4200 50  0001 C CNN
+F 2 "stdpads:C_0805" H 3200 4200 50  0001 C CNN
 F 3 "~" H 3200 4200 50  0001 C CNN
 	1    3200 4200
 	1    0    0    -1  
@@ -489,17 +320,6 @@ Wire Wire Line
 	2800 4300 3200 4300
 Connection ~ 2800 4300
 Connection ~ 3200 4300
-$Comp
-L power:GND #PWR0114
-U 1 1 5C2E29CC
-P 3600 4300
-F 0 "#PWR0114" H 3600 4050 50  0001 C CNN
-F 1 "GND" H 3600 4150 50  0000 C CNN
-F 2 "" H 3600 4300 50  0001 C CNN
-F 3 "" H 3600 4300 50  0001 C CNN
-	1    3600 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 4300 3600 4300
 Connection ~ 3600 4300
@@ -512,37 +332,24 @@ U 1 1 5D1301A9
 P 3600 4200
 F 0 "C4" H 3692 4246 50  0000 L CNN
 F 1 "100n" H 3692 4155 50  0000 L CNN
-F 2 "stdpads:C_1206" H 3600 4200 50  0001 C CNN
+F 2 "stdpads:C_0805" H 3600 4200 50  0001 C CNN
 F 3 "~" H 3600 4200 50  0001 C CNN
 	1    3600 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
-U 1 1 5D14DFC9
-P 6200 4500
-F 0 "#PWR0115" H 6200 4250 50  0001 C CNN
-F 1 "GND" H 6200 4350 50  0000 C CNN
-F 2 "" H 6200 4500 50  0001 C CNN
-F 3 "" H 6200 4500 50  0001 C CNN
-	1    6200 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 4500 6000 4500
-$Comp
 L power:GND #PWR0116
 U 1 1 5D14FA7D
-P 4800 4500
-F 0 "#PWR0116" H 4800 4250 50  0001 C CNN
-F 1 "GND" H 4800 4350 50  0000 C CNN
-F 2 "" H 4800 4500 50  0001 C CNN
-F 3 "" H 4800 4500 50  0001 C CNN
-	1    4800 4500
+P 4400 7000
+F 0 "#PWR0116" H 4400 6750 50  0001 C CNN
+F 1 "GND" H 4400 6850 50  0000 C CNN
+F 2 "" H 4400 7000 50  0001 C CNN
+F 3 "" H 4400 7000 50  0001 C CNN
+	1    4400 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 4500 4600 4500
+	4400 7000 4200 7000
 Text Label 1950 5650 0    50   ~ 0
 2A10
 Text Label 1950 5450 0    50   ~ 0
@@ -609,4 +416,164 @@ Text Label 1950 7150 0    50   ~ 0
 1A10
 Text Label 1950 7350 0    50   ~ 0
 1A9
+$Comp
+L stdparts:AS4C4M4 U1
+U 1 1 5D38F422
+P 3800 6650
+F 0 "U1" H 3800 7515 50  0000 C CNN
+F 1 "AS4C4M4" H 3800 7424 50  0000 C CNN
+F 2 "stdpads:SOP-24-26-300mil" H 3800 5950 50  0001 C CNN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf" H 3800 6150 50  0001 C CNN
+	1    3800 6650
+	1    0    0    -1  
+$EndComp
+Text Label 3400 6950 2    50   ~ 0
+1A9
+$Comp
+L power:GND #PWR0105
+U 1 1 5D395DE3
+P 4200 7200
+F 0 "#PWR0105" H 4200 6950 50  0001 C CNN
+F 1 "GND" H 4200 7050 50  0000 C CNN
+F 2 "" H 4200 7200 50  0001 C CNN
+F 3 "" H 4200 7200 50  0001 C CNN
+	1    4200 7200
+	1    0    0    -1  
+$EndComp
+Text Label 4200 6700 0    50   ~ 0
+~CAS~
+Text Label 4200 6800 0    50   ~ 0
+~RAS~
+Text Label 4200 6900 0    50   ~ 0
+~WE~
+Text Label 4200 6250 0    50   ~ 0
+D5
+Text Label 4200 6550 0    50   ~ 0
+D4
+Text Label 4200 6350 0    50   ~ 0
+D7
+Text Label 4200 6450 0    50   ~ 0
+D6
+$Comp
+L power:+5V #PWR0106
+U 1 1 5D396692
+P 4200 6050
+F 0 "#PWR0106" H 4200 5900 50  0001 C CNN
+F 1 "+5V" H 4200 6200 50  0000 C CNN
+F 2 "" H 4200 6050 50  0001 C CNN
+F 3 "" H 4200 6050 50  0001 C CNN
+	1    4200 6050
+	1    0    0    -1  
+$EndComp
+Text Label 5800 7050 0    50   ~ 0
+~OE~
+Text Label 5000 6900 2    50   ~ 0
+2A8
+Text Label 5000 6800 2    50   ~ 0
+2A7
+Text Label 5000 6700 2    50   ~ 0
+2A6
+Text Label 5000 6600 2    50   ~ 0
+2A5
+Text Label 5000 6500 2    50   ~ 0
+2A4
+Text Label 5000 6400 2    50   ~ 0
+2A3
+Text Label 5000 6300 2    50   ~ 0
+2A2
+Text Label 5000 6200 2    50   ~ 0
+2A1
+Text Label 5000 6100 2    50   ~ 0
+2A0
+Text Label 5000 7100 2    50   ~ 0
+2A10
+$Comp
+L power:GND #PWR0107
+U 1 1 5D3999CF
+P 6000 7050
+F 0 "#PWR0107" H 6000 6800 50  0001 C CNN
+F 1 "GND" H 6000 6900 50  0000 C CNN
+F 2 "" H 6000 7050 50  0001 C CNN
+F 3 "" H 6000 7050 50  0001 C CNN
+	1    6000 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 7050 5800 7050
+$Comp
+L stdparts:AS4C4M4 U2
+U 1 1 5D3999D6
+P 5400 6700
+F 0 "U2" H 5400 7565 50  0000 C CNN
+F 1 "AS4C4M4" H 5400 7474 50  0000 C CNN
+F 2 "stdpads:SOP-24-26-300mil" H 5400 6000 50  0001 C CNN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf" H 5400 6200 50  0001 C CNN
+	1    5400 6700
+	1    0    0    -1  
+$EndComp
+Text Label 5000 7000 2    50   ~ 0
+2A9
+$Comp
+L power:GND #PWR0108
+U 1 1 5D3999DD
+P 5800 7250
+F 0 "#PWR0108" H 5800 7000 50  0001 C CNN
+F 1 "GND" H 5800 7100 50  0000 C CNN
+F 2 "" H 5800 7250 50  0001 C CNN
+F 3 "" H 5800 7250 50  0001 C CNN
+	1    5800 7250
+	1    0    0    -1  
+$EndComp
+Text Label 5800 6750 0    50   ~ 0
+~CAS~
+Text Label 5800 6850 0    50   ~ 0
+~RAS~
+Text Label 5800 6950 0    50   ~ 0
+~WE~
+$Comp
+L power:+5V #PWR0109
+U 1 1 5D3999EA
+P 5800 6100
+F 0 "#PWR0109" H 5800 5950 50  0001 C CNN
+F 1 "+5V" H 5800 6250 50  0000 C CNN
+F 2 "" H 5800 6100 50  0001 C CNN
+F 3 "" H 5800 6100 50  0001 C CNN
+	1    5800 6100
+	1    0    0    -1  
+$EndComp
+Text Label 5800 6600 0    50   ~ 0
+D0
+Text Label 5800 6500 0    50   ~ 0
+D2
+Text Label 5800 6400 0    50   ~ 0
+D3
+Text Label 5800 6300 0    50   ~ 0
+D1
+$Comp
+L power:GND #PWR0110
+U 1 1 5D3FC319
+P 4000 4300
+F 0 "#PWR0110" H 4000 4050 50  0001 C CNN
+F 1 "GND" H 4000 4150 50  0000 C CNN
+F 2 "" H 4000 4300 50  0001 C CNN
+F 3 "" H 4000 4300 50  0001 C CNN
+	1    4000 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4300 4000 4300
+Connection ~ 4000 4300
+Wire Wire Line
+	4000 4100 3600 4100
+$Comp
+L Device:C_Small C5
+U 1 1 5D3FC322
+P 4000 4200
+F 0 "C5" H 4092 4246 50  0000 L CNN
+F 1 "100n" H 4092 4155 50  0000 L CNN
+F 2 "stdpads:C_0805" H 4000 4200 50  0001 C CNN
+F 3 "~" H 4000 4200 50  0001 C CNN
+	1    4000 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
