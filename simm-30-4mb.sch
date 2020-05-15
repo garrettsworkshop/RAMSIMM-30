@@ -499,17 +499,6 @@ F 3 "" H 6000 7100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 7100 5800 7100
-$Comp
-L GW_RAM:DRAM-4Mx4-SOP-24 U2
-U 1 1 5D3999D6
-P 5400 6700
-F 0 "U2" H 5400 7350 50  0000 C CNN
-F 1 "AS4C4M4" H 5400 6050 50  0000 C CNN
-F 2 "stdpads:SOP-24-26-300mil" H 5400 6000 50  0001 C CNN
-F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf" H 5400 6200 50  0001 C CNN
-	1    5400 6700
-	1    0    0    -1  
-$EndComp
 Text Label 5000 7100 2    50   ~ 0
 2A9
 $Comp
@@ -573,6 +562,17 @@ F 1 "100n" H 4092 4155 50  0000 L CNN
 F 2 "stdpads:C_0805" H 4000 4200 50  0001 C CNN
 F 3 "~" H 4000 4200 50  0001 C CNN
 	1    4000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GW_RAM:DRAM-4Mx4-SOP-24 U2
+U 1 1 5D3999D6
+P 5400 6700
+F 0 "U2" H 5400 7350 50  0000 C CNN
+F 1 "AS4C4M4" H 5400 6050 50  0000 C CNN
+F 2 "stdpads:SOP-24-26-300mil" H 5400 6000 50  0001 C CNN
+F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf" H 5400 6200 50  0001 C CNN
+	1    5400 6700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
