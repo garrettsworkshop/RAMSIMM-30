@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:simm-30-4mb-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -19,7 +18,7 @@ L Connector_Generic:Conn_01x30 J1
 U 1 1 5C2E1E12
 P 4450 3450
 F 0 "J1" V 4574 3396 50  0000 C CNN
-F 1 "Conn_01x30" V 4665 3396 50  0000 C CNN
+F 1 "DRAM-SIMM-30" V 4665 3396 50  0000 C CNN
 F 2 "stdpads:SIMM-30_Edge" H 4450 3450 50  0001 C CNN
 F 3 "~" H 4450 3450 50  0001 C CNN
 	1    4450 3450
@@ -121,27 +120,27 @@ Text Label 5750 3250 1    50   ~ 0
 ~CASP~
 Text Label 5850 3250 1    50   ~ 0
 DP
-Text Label 4200 7000 0    50   ~ 0
+Text Label 4200 7050 0    50   ~ 0
 ~OE~
-Text Label 3400 6850 2    50   ~ 0
+Text Label 3400 6950 2    50   ~ 0
 1A8
-Text Label 3400 6750 2    50   ~ 0
+Text Label 3400 6850 2    50   ~ 0
 1A7
-Text Label 3400 6650 2    50   ~ 0
+Text Label 3400 6750 2    50   ~ 0
 1A6
-Text Label 3400 6550 2    50   ~ 0
+Text Label 3400 6650 2    50   ~ 0
 1A5
-Text Label 3400 6450 2    50   ~ 0
+Text Label 3400 6550 2    50   ~ 0
 1A4
-Text Label 3400 6350 2    50   ~ 0
+Text Label 3400 6450 2    50   ~ 0
 1A3
-Text Label 3400 6250 2    50   ~ 0
+Text Label 3400 6350 2    50   ~ 0
 1A2
-Text Label 3400 6150 2    50   ~ 0
+Text Label 3400 6250 2    50   ~ 0
 1A1
-Text Label 3400 6050 2    50   ~ 0
+Text Label 3400 6150 2    50   ~ 0
 1A0
-Text Label 3400 7050 2    50   ~ 0
+Text Label 3400 7150 2    50   ~ 0
 1A10
 Wire Wire Line
 	1850 7400 1850 7350
@@ -340,16 +339,16 @@ $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 5D14FA7D
-P 4400 7000
-F 0 "#PWR0116" H 4400 6750 50  0001 C CNN
-F 1 "GND" H 4400 6850 50  0000 C CNN
-F 2 "" H 4400 7000 50  0001 C CNN
-F 3 "" H 4400 7000 50  0001 C CNN
-	1    4400 7000
+P 4400 7050
+F 0 "#PWR0116" H 4400 6800 50  0001 C CNN
+F 1 "GND" H 4400 6900 50  0000 C CNN
+F 2 "" H 4400 7050 50  0001 C CNN
+F 3 "" H 4400 7050 50  0001 C CNN
+	1    4400 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 7000 4200 7000
+	4400 7050 4200 7050
 Text Label 1950 5650 0    50   ~ 0
 2A10
 Text Label 1950 5450 0    50   ~ 0
@@ -417,34 +416,34 @@ Text Label 1950 7150 0    50   ~ 0
 Text Label 1950 7350 0    50   ~ 0
 1A9
 $Comp
-L stdparts:AS4C4M4 U1
+L GW_RAM:DRAM-4Mx4-SOP-24 U1
 U 1 1 5D38F422
 P 3800 6650
-F 0 "U1" H 3800 7515 50  0000 C CNN
-F 1 "AS4C4M4" H 3800 7424 50  0000 C CNN
+F 0 "U1" H 3800 7300 50  0000 C CNN
+F 1 "AS4C4M4" H 3800 6000 50  0000 C CNN
 F 2 "stdpads:SOP-24-26-300mil" H 3800 5950 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf" H 3800 6150 50  0001 C CNN
 	1    3800 6650
 	1    0    0    -1  
 $EndComp
-Text Label 3400 6950 2    50   ~ 0
+Text Label 3400 7050 2    50   ~ 0
 1A9
 $Comp
 L power:GND #PWR0105
 U 1 1 5D395DE3
-P 4200 7200
-F 0 "#PWR0105" H 4200 6950 50  0001 C CNN
-F 1 "GND" H 4200 7050 50  0000 C CNN
-F 2 "" H 4200 7200 50  0001 C CNN
-F 3 "" H 4200 7200 50  0001 C CNN
-	1    4200 7200
+P 4200 7150
+F 0 "#PWR0105" H 4200 6900 50  0001 C CNN
+F 1 "GND" H 4200 7000 50  0000 C CNN
+F 2 "" H 4200 7150 50  0001 C CNN
+F 3 "" H 4200 7150 50  0001 C CNN
+	1    4200 7150
 	1    0    0    -1  
 $EndComp
-Text Label 4200 6700 0    50   ~ 0
+Text Label 4200 6750 0    50   ~ 0
 ~CAS~
-Text Label 4200 6800 0    50   ~ 0
+Text Label 4200 6850 0    50   ~ 0
 ~RAS~
-Text Label 4200 6900 0    50   ~ 0
+Text Label 4200 6950 0    50   ~ 0
 ~WE~
 Text Label 4200 6250 0    50   ~ 0
 D5
@@ -457,88 +456,88 @@ D6
 $Comp
 L power:+5V #PWR0106
 U 1 1 5D396692
-P 4200 6050
-F 0 "#PWR0106" H 4200 5900 50  0001 C CNN
-F 1 "+5V" H 4200 6200 50  0000 C CNN
-F 2 "" H 4200 6050 50  0001 C CNN
-F 3 "" H 4200 6050 50  0001 C CNN
-	1    4200 6050
+P 4200 6150
+F 0 "#PWR0106" H 4200 6000 50  0001 C CNN
+F 1 "+5V" H 4200 6300 50  0000 C CNN
+F 2 "" H 4200 6150 50  0001 C CNN
+F 3 "" H 4200 6150 50  0001 C CNN
+	1    4200 6150
 	1    0    0    -1  
 $EndComp
-Text Label 5800 7050 0    50   ~ 0
+Text Label 5800 7100 0    50   ~ 0
 ~OE~
-Text Label 5000 6900 2    50   ~ 0
+Text Label 5000 7000 2    50   ~ 0
 2A8
-Text Label 5000 6800 2    50   ~ 0
+Text Label 5000 6900 2    50   ~ 0
 2A7
-Text Label 5000 6700 2    50   ~ 0
+Text Label 5000 6800 2    50   ~ 0
 2A6
-Text Label 5000 6600 2    50   ~ 0
+Text Label 5000 6700 2    50   ~ 0
 2A5
-Text Label 5000 6500 2    50   ~ 0
+Text Label 5000 6600 2    50   ~ 0
 2A4
-Text Label 5000 6400 2    50   ~ 0
+Text Label 5000 6500 2    50   ~ 0
 2A3
-Text Label 5000 6300 2    50   ~ 0
+Text Label 5000 6400 2    50   ~ 0
 2A2
-Text Label 5000 6200 2    50   ~ 0
+Text Label 5000 6300 2    50   ~ 0
 2A1
-Text Label 5000 6100 2    50   ~ 0
+Text Label 5000 6200 2    50   ~ 0
 2A0
-Text Label 5000 7100 2    50   ~ 0
+Text Label 5000 7200 2    50   ~ 0
 2A10
 $Comp
 L power:GND #PWR0107
 U 1 1 5D3999CF
-P 6000 7050
-F 0 "#PWR0107" H 6000 6800 50  0001 C CNN
-F 1 "GND" H 6000 6900 50  0000 C CNN
-F 2 "" H 6000 7050 50  0001 C CNN
-F 3 "" H 6000 7050 50  0001 C CNN
-	1    6000 7050
+P 6000 7100
+F 0 "#PWR0107" H 6000 6850 50  0001 C CNN
+F 1 "GND" H 6000 6950 50  0000 C CNN
+F 2 "" H 6000 7100 50  0001 C CNN
+F 3 "" H 6000 7100 50  0001 C CNN
+	1    6000 7100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 7050 5800 7050
+	6000 7100 5800 7100
 $Comp
-L stdparts:AS4C4M4 U2
+L GW_RAM:DRAM-4Mx4-SOP-24 U2
 U 1 1 5D3999D6
 P 5400 6700
-F 0 "U2" H 5400 7565 50  0000 C CNN
-F 1 "AS4C4M4" H 5400 7474 50  0000 C CNN
+F 0 "U2" H 5400 7350 50  0000 C CNN
+F 1 "AS4C4M4" H 5400 6050 50  0000 C CNN
 F 2 "stdpads:SOP-24-26-300mil" H 5400 6000 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf" H 5400 6200 50  0001 C CNN
 	1    5400 6700
 	1    0    0    -1  
 $EndComp
-Text Label 5000 7000 2    50   ~ 0
+Text Label 5000 7100 2    50   ~ 0
 2A9
 $Comp
 L power:GND #PWR0108
 U 1 1 5D3999DD
-P 5800 7250
-F 0 "#PWR0108" H 5800 7000 50  0001 C CNN
-F 1 "GND" H 5800 7100 50  0000 C CNN
-F 2 "" H 5800 7250 50  0001 C CNN
-F 3 "" H 5800 7250 50  0001 C CNN
-	1    5800 7250
+P 5800 7200
+F 0 "#PWR0108" H 5800 6950 50  0001 C CNN
+F 1 "GND" H 5800 7050 50  0000 C CNN
+F 2 "" H 5800 7200 50  0001 C CNN
+F 3 "" H 5800 7200 50  0001 C CNN
+	1    5800 7200
 	1    0    0    -1  
 $EndComp
-Text Label 5800 6750 0    50   ~ 0
+Text Label 5800 6800 0    50   ~ 0
 ~CAS~
-Text Label 5800 6850 0    50   ~ 0
+Text Label 5800 6900 0    50   ~ 0
 ~RAS~
-Text Label 5800 6950 0    50   ~ 0
+Text Label 5800 7000 0    50   ~ 0
 ~WE~
 $Comp
 L power:+5V #PWR0109
 U 1 1 5D3999EA
-P 5800 6100
-F 0 "#PWR0109" H 5800 5950 50  0001 C CNN
-F 1 "+5V" H 5800 6250 50  0000 C CNN
-F 2 "" H 5800 6100 50  0001 C CNN
-F 3 "" H 5800 6100 50  0001 C CNN
-	1    5800 6100
+P 5800 6200
+F 0 "#PWR0109" H 5800 6050 50  0001 C CNN
+F 1 "+5V" H 5800 6350 50  0000 C CNN
+F 2 "" H 5800 6200 50  0001 C CNN
+F 3 "" H 5800 6200 50  0001 C CNN
+	1    5800 6200
 	1    0    0    -1  
 $EndComp
 Text Label 5800 6600 0    50   ~ 0
