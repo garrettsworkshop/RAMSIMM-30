@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2-1)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5-0-10_14)")
 
   (general
     (thickness 1.6)
@@ -888,6 +888,9 @@
     )
   )
 
+  (gr_text JLCJLCJLC (at 112.395 86.614) (layer B.SilkS) (tstamp 5D3283FB)
+    (effects (font (size 0.8128 0.8128) (thickness 0.2032)) (justify mirror))
+  )
   (gr_text 4190A (at 127.889 95.377) (layer B.SilkS) (tstamp 5D3285A5)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
@@ -899,9 +902,6 @@
   )
   (gr_text "4 MB RAM" (at 94.742 95.377) (layer B.SilkS) (tstamp 5D328681)
     (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
-  )
-  (gr_text JLCJLCJLC (at 112.395 86.614) (layer B.SilkS) (tstamp 5D3283FB)
-    (effects (font (size 0.8128 0.8128) (thickness 0.2032)) (justify mirror))
   )
   (gr_line (start 76.581 95.631) (end 76.2 95.631) (layer Edge.Cuts) (width 0.2) (tstamp 5D2DD5AD))
   (gr_line (start 78.232 101.6) (end 78.232 97.282) (layer Edge.Cuts) (width 0.2) (tstamp 5D2A6AC8))
