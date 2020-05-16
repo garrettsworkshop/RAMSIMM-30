@@ -1,7 +1,7 @@
 M48
-; DRILL file {KiCad (5.1.5-0-10_14)} date Friday, May 15, 2020 at 06:25:24 PM
+; DRILL file {KiCad (5.1.5-0-10_14)} date Saturday, May 16, 2020 at 01:07:27 PM
 ; FORMAT={-:-/ absolute / inch / decimal}
-; #@! TF.CreationDate,2020-05-15T18:25:24-04:00
+; #@! TF.CreationDate,2020-05-16T13:07:27-04:00
 ; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.1.5-0-10_14)
 FMAT,2
 INCH
@@ -12,10 +12,10 @@ T3C0.0197
 G90
 G05
 T1
-X3.035Y-3.285
 X3.035Y-3.44
 X3.035Y-3.6
 X3.035Y-3.73
+X3.0425Y-3.2925
 X3.11Y-3.73
 X3.115Y-3.965
 X3.145Y-3.36
@@ -143,7 +143,7 @@ X6.35Y-3.36
 X6.35Y-3.52
 X6.35Y-3.695
 X6.35Y-3.88
-X6.465Y-3.285
+X6.4575Y-3.2925
 X6.465Y-3.44
 X6.465Y-3.6
 X6.465Y-3.785
