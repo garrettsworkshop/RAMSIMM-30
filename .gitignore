@@ -6,6 +6,7 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.sch-bak
 *~
 _autosave-*
 *.tmp
@@ -20,5 +21,9 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# Exported BOM files
+*.xml
+*.csv
 
 *.DS_Store
