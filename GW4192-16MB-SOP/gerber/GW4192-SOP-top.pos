@@ -1,0 +1,15 @@
+### Module positions - created on Monday, June 21, 2021 at 04:55:09 AM ###
+### Printed by Pcbnew version kicad (5.1.10-1-10_14)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                PosX       PosY       Rot  Side
+C1        2u2         C_0805              83.8200   -95.2255   90.0000  top
+C2        2u2         C_0805             107.9500   -95.2255   90.0000  top
+C3        2u2         C_0805             118.1100   -95.2255   90.0000  top
+C4        2u2         C_0805             142.2400   -95.2255   90.0000  top
+C5        2u2         C_0805             157.4800   -95.2255   90.0000  top
+R1        EDO         R_0805              82.6770   -86.4870  180.0000  top
+R2        FPM         R_0805              82.6770   -84.4550    0.0000  top
+U1        KM44C16104  SOP-32_400mil       95.8850   -90.0430   90.0000  top
+U2        KM44C16104  SOP-32_400mil      130.1750   -90.0430   90.0000  top
+## End
