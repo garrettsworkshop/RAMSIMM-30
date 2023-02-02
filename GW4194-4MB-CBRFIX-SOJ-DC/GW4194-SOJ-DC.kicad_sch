@@ -2115,8 +2115,8 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060c11c86)
     (property "Reference" "U4" (id 0) (at 181.61 128.27 0))
-    (property "Value" "74LVC1G74DP" (id 1) (at 181.61 135.89 0))
-    (property "Footprint" "stdpads:NXP_TSSOP-8_3x3mm_P0.65mm" (id 2) (at 181.61 137.16 0)
+    (property "Value" "74LVC1G74DC" (id 1) (at 181.61 135.89 0))
+    (property "Footprint" "stdpads:NXP_VSSOP-8_2.3x2mm_Big" (id 2) (at 181.61 137.16 0)
       (effects (font (size 1.27 1.27)) (justify top) hide)
     )
     (property "Datasheet" "" (id 3) (at 181.61 133.35 0)
@@ -2669,7 +2669,7 @@
       (reference "U3") (unit 1) (value "74LVC1G04") (footprint "stdpads:SOT-353")
     )
     (path "/00000000-0000-0000-0000-000060c11c86"
-      (reference "U4") (unit 1) (value "74LVC1G74DP") (footprint "stdpads:NXP_TSSOP-8_3x3mm_P0.65mm")
+      (reference "U4") (unit 1) (value "74LVC1G74DC") (footprint "stdpads:NXP_VSSOP-8_2.3x2mm_Big")
     )
     (path "/00000000-0000-0000-0000-000060c701c1"
       (reference "U5") (unit 1) (value "74LVC1G32") (footprint "stdpads:SOT-353")
