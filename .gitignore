@@ -2,36 +2,17 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.sch-bak
-*~
-_autosave-*
-*.tmp
-*-rescue.lib
-*-save.pro
-*-save.kicad_pcb
 fp-info-cache
 
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
-
 *.DS_Store
-Documentation/~$MSIMM30SelectionGuide.docx
 GW4190-4MB-SOJ/GW4190-SOJ-backups/*
 GW4190-4MB-SOP/GW4190-SOP-backups/*
 GW4191-4MB-parity-SOJ/GW4191-SOJ-backups/*
 GW4191-4MB-parity-SOP/GW4191-SOP-backups/*
 GW4192-16MB-SOJ/GW4192-SOJ-backups/*
 GW4192-16MB-SOP/GW4192-SOP-backups/*
-GW4194-4MB-CBRFIX-SOJ-DC/GW4194-SOJ-DC-backups/*
-GW4194-4MB-CBRFIX-SOJ-DP/GW4194-SOJ-DP-backups/*
-GW4194-4MB-CBRFIX-SOP/GW4194-SOP-backups/*
+GW4194-4MB-CBRFIX-SOJ-DC/GW4194-backups/*
+GW4194-4MB-CBRFIX-SOJ-DP/GW4194-backups/*
+GW4194-4MB-CBRFIX-SOP-DC/GW4194-backups/*
+GW4194-4MB-CBRFIX-SOP-DP/GW4194-backups/*
 *.kicad_prl
-GW4194-4MB-CBRFIX-SOJ-DC/GW4194-SOJ-backups/GW4194-SOJ-2023-01-20_194304.zip
